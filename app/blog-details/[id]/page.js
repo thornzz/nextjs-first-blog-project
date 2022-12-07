@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 async function getPost(id) {
     try {
-        const response = await fetch(`https://dummjson.com/posts/${id}`);
+        const response = await fetch(`https://dummyjson.com/posts/${id}`);
         return response.json();      
     } catch (error) {
 
